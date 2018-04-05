@@ -1,12 +1,12 @@
 我在這個 task 中理解到的 git 是什麼東西
 =====
-  * *git* 為一種原始碼
-  * *GitHub* 為git分享之平台，可以在 [平台](https://github.com/explore) 上找到其他人分享之git語法
+  * *git* 為一種檔案多工合作的系統，可以多人同時對檔案進行修改。
+  * 檔案被 committer 修改後，須受 reviewer 的鑑定才會正式採納修改後的內容。
 
 Clasification
 -----
 
   git | GitHub
   --- | ---
-  原始碼 | 平台
+  系統 | 平台
   工具 | 交流
