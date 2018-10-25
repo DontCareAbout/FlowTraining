@@ -1,5 +1,5 @@
 我在這個 task 中理解到的 git 是什麼東西
-===================================
+=======================================
 
 * git 為版本控制的軟體，方便追蹤變更的內容。一般常用於程式開發。
 * 當檔案內容改變時，會跟上一個版本進行比較，並標示出差異的部分。
@@ -9,8 +9,8 @@
 
 ### 常用 git 指令 ###
 
+
 * `git clone`：下載網路上的 repo
-* `git status`：查看目前版本修改的檔案
 * `git log`：查看過去 commit 的紀錄
 * `git add`：新增要被追蹤的檔案
 * `git commit`：紀錄版本變更的摘要
@@ -20,13 +20,14 @@
 	* `git branch <新 branch 名稱>`
 	* `git branch -d <要刪除的 branch>`
 * `git checkout`：切換 branch
+* `git rebase`：我也不知道能幹麼 [抖]
 * `git remote`：管理遠端的 repo
 * `git push`：將整個 repo 上傳
 
 
 ### Markdown Software ###
 
-|Software   |OS     |Download                         |
+|Software   |0S     |Download                         |
 |:----------|:------|:--------------------------------|
 |MarkdownPad|Windows|[link][MP]                       |
 |Retext     |Linux  |Ubuntu: `sudo apt install retext`|
