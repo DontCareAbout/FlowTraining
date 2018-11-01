@@ -1,4 +1,5 @@
-==== 我在這個 task 中理解到的 git 是什麼東西
+我在這個 task 中理解到的 git 是什麼東西
+=======================================
 
 1. *git* is a VCS, namely Version Control System.
 2. *Github* is a VCS host.
@@ -22,8 +23,8 @@
 |log		|Show commit logs							|
 |show		|Show various types of objects						|
 |status		|Show the working tree status						|
-|*grow, mark and tweak your common history*						|
-|**branch List, create, or delete branches**						|
+|**grow, mark and tweak your common history**						|
+|branch 	|List, create, or delete branches					|
 |checkout	|Switch branches or restore working tree files				|
 |commit		|Record changes to the repository					|
 |diff		|Show changes between commits, commit and working tree, etc		|
@@ -38,7 +39,19 @@
 
 # [Reference](https://git-scm.com/docs)
 
--[x] Header
--[x] List
--[x] Hyperlink
--[x] Table
+
+Patch History
+-------------
+
+### V1
+
+*checked*
+- [x] Header
+- [x] List
+- [x] Hyperlink
+- [x] Table
+
+
+### V2
+
+- [x] fix header and try using the Setext style.
