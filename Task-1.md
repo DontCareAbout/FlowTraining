@@ -6,7 +6,7 @@
 3. *Markdown* is a **lightweight** markup language with plain text mainly used on *Github*.
 4. I can get some reference from other Github user.
 
-# command & describtion
+### command & describtion
 
 |*command*	|*description*								|
 |---------------|-----------------------------------------------------------------------|
@@ -37,7 +37,7 @@
 |push		|Update remote refs along with associated objects			|
 	
 
-# [Reference](https://git-scm.com/docs)
+### [Reference](https://git-scm.com/docs)
 
 
 Patch History
@@ -55,3 +55,8 @@ Patch History
 ### V2
 
 - [x] fix header and try using the Setext style.
+
+
+### V3
+
+- [x] fix header again, which order was incorrected.
