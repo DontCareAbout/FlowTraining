@@ -14,9 +14,11 @@ Task Feedback
 1. 使用 `git pull -r` 將自己 local repo 的 master branch 與 `DontCareAbout` repo 的 `master` 一致
 1. 使用 `git push` 讓自己的 github repo 的 master branch 與 `DontCareAbout` repo 的 `master` 一致
 1. 建立一個 branch，名稱為 `task-2`，並切換到這個 branch
-1. 修正被亂改 `Task-1.md`（會放在以你 GitHub 帳號名稱命名的目錄下），並在檔案開頭加上 Task-1 的分數
+1. 修正被亂改 `Task-1.md`（會放在以你 GitHub 帳號名稱命名的目錄下），
+	並在檔案開頭加上 Task-1 的分數、以及被亂改的修正清單
 	* Task-1 的分數在 merge 的 commit log 中
 1. （Option）在 `Task-1.md` 增加一個段落，回答這個問題：「Task-1 的缺點或是可改進的方向」
+	* 是檢討出作業的人，不是檢討寫作業的你
 1. 發 pull request 給 `MontyPan/FlowTraining` 的 `master`
 
 注意：如果沒有使用 `-r` 導致出現 merge commit，則 pull request 必定會 reject
