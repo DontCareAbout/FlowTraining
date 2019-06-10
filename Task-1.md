@@ -30,3 +30,8 @@
 - `git commit -m "<此次修改的內容>`：將檔案從暫存區提交至儲存庫（快速提交）
   - `git commit -a -m "<此次修改的內容>"`：`git add`並快速提交（之前沒有 add 過的不適用）
 - `git log`：查看 commit 的紀錄
+## Git 與 GitHub
+| Git | GitHub |
+| -------- | -------- |
+| 軟體 |  網站  |
+| [Git](https://git-scm.com/) | [GitHub](https://github.com/) |
