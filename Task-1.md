@@ -16,3 +16,11 @@
 ### repository（倉儲）
 - `git clone [url]`：將網路上的 repo 下載至本地電腦
 - `git init`：初始化（建立`.git`的子資料夾）
+### branch（分支）
+- `git branch`：查看所有 branch
+  - `git branch <new_branchname>`：建立新的 branch 並命名
+  - `git branch -m <original_branchname> <new_branchname>`：重新命名 branch
+  - `git branch -d <branchname>`：刪除指定的 branch
+- `git checkout <branchname>`：切換至指定 branch（預設為 `master`）
+  - `git checkout -b <branchname>`：建立並切換至指定 branch
+  - `git diff <branchname1> <branchname2>`：比較兩個 branch 的不同之處
