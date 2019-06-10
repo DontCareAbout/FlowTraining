@@ -13,3 +13,6 @@
   - `cd <directoryname>`：前往下一層目錄
   - `cd ..`：返回上一層目錄
   - `cd ~`：返回初始目錄
+### repository（倉儲）
+- `git clone [url]`：將網路上的 repo 下載至本地電腦
+- `git init`：初始化（建立`.git`的子資料夾）
