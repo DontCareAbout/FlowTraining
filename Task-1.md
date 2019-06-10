@@ -24,3 +24,9 @@
 - `git checkout <branchname>`：切換至指定 branch（預設為 `master`）
   - `git checkout -b <branchname>`：建立並切換至指定 branch
   - `git diff <branchname1> <branchname2>`：比較兩個 branch 的不同之處
+### commit（提交）
+- `git status`：查看狀態
+- `git add <filename>`：將檔案從工作目錄移至暫存區（commit 的前置作業）
+- `git commit -m "<此次修改的內容>`：將檔案從暫存區提交至儲存庫（快速提交）
+  - `git commit -a -m "<此次修改的內容>"`：`git add`並快速提交（之前沒有 add 過的不適用）
+- `git log`：查看 commit 的紀錄
