@@ -1,37 +1,39 @@
-# §Ú¦b³o­Ó task ¤¤²z¸Ñ¨ìªº git ¬O¤°»òªF¦è
+# æˆ‘åœ¨é€™å€‹ task ä¸­ç†è§£åˆ°çš„ git æ˜¯ä»€éº¼æ±è¥¿
 
--  ¤À´²¦¡ª©¥»±±¨î³nÅé
--  ¥i¥H¤À¦¨¤T­Ó°Ï¶ô
-   1. ¤u§@¥Ø¿ı¡]Working Directory¡^
-   2. ¼È¦s°Ï¡]Staging Area¡^
-   3. Àx¦s®w¡]Repository¡^
-## «ü¥O
-### directory¡]¥Ø¿ı¡^
-- `pwd`¡G¬d¬İ¥Ø«e©Ò¦bªº¥Ø¿ı
-- `ls`¡G¬d¬İ¥Ø¿ı¤¤ªºÀÉ®×
-- `cd`¡GÅÜ§ó¥Ø¿ı
-  - `cd <directoryname>`¡G«e©¹¤U¤@¼h¥Ø¿ı
-  - `cd ..`¡Gªğ¦^¤W¤@¼h¥Ø¿ı
-  - `cd ~`¡Gªğ¦^ªì©l¥Ø¿ı
-### repository¡]­ÜÀx¡^
-- `git clone [url]`¡G±Nºô¸ô¤Wªº repo ¤U¸ü¦Ü¥»¦a¹q¸£
-- `git init`¡Gªì©l¤Æ¡]«Ø¥ß`.git`ªº¤l¸ê®Æ§¨¡^
-### branch¡]¤À¤ä¡^
-- `git branch`¡G¬d¬İ©Ò¦³ branch
-  - `git branch <new_branchname>`¡G«Ø¥ß·sªº branch ¨Ã©R¦W
-  - `git branch -m <original_branchname> <new_branchname>`¡G­«·s©R¦W branch
-  - `git branch -d <branchname>`¡G§R°£«ü©wªº branch
-- `git checkout <branchname>`¡G¤Á´«¦Ü«ü©w branch¡]¹w³]¬° `master`¡^
-  - `git checkout -b <branchname>`¡G«Ø¥ß¨Ã¤Á´«¦Ü«ü©w branch
-  - `git diff <branchname1> <branchname2>`¡G¤ñ¸û¨â­Ó branch ªº¤£¦P¤§³B
-### commit¡]´£¥æ¡^
-- `git status`¡G¬d¬İª¬ºA
-- `git add <filename>`¡G±NÀÉ®×±q¤u§@¥Ø¿ı²¾¦Ü¼È¦s°Ï¡]commit ªº«e¸m§@·~¡^
-- `git commit -m "<¦¹¦¸­×§ïªº¤º®e>`¡G±NÀÉ®×±q¼È¦s°Ï´£¥æ¦ÜÀx¦s®w¡]§Ö³t´£¥æ¡^
-  - `git commit -a -m "<¦¹¦¸­×§ïªº¤º®e>"`¡G`git add`¨Ã§Ö³t´£¥æ¡]¤§«e¨S¦³ add ¹Lªº¤£¾A¥Î¡^
-- `git log`¡G¬d¬İ commit ªº¬ö¿ı
-## Git »P GitHub
+-  åˆ†æ•£å¼ç‰ˆæœ¬æ§åˆ¶è»Ÿé«”
+-  æ–¹ä¾¿ç¨‹å¼è¨­è¨ˆå¸«å¯ä»¥ä¸€èµ·ä¿®æ”¹åŒä¸€å€‹ repo çš„å…§å®¹
+  - æœƒè¨˜éŒ„æ¯å€‹äººçš„ä¿®æ”¹ç´€éŒ„
+  - è®“ repo åƒæ¨¹ä¸€æ¨£é•·å¤§
+    - å»¶ä¼¸å‡ºæ–°é»å­ï¼ˆbranchï¼‰
+    - éš¨æ™‚å¯ä»¥æ‰¾åˆ°ç´€éŒ„é»ï¼ˆç¯€é»ï¼‰
+    - ä¸æœƒå¿˜è¨˜ä¸»ç·šï¼ˆmasterï¼‰
+## æŒ‡ä»¤
+### directoryï¼ˆç›®éŒ„ï¼‰
+- `pwd`ï¼šæŸ¥çœ‹ç›®å‰æ‰€åœ¨çš„ç›®éŒ„
+- `ls`ï¼šæŸ¥çœ‹ç›®éŒ„ä¸­çš„æª”æ¡ˆ
+- `cd`ï¼šè®Šæ›´ç›®éŒ„
+  - `cd <directoryname>`ï¼šå‰å¾€ä¸‹ä¸€å±¤ç›®éŒ„
+  - `cd ..`ï¼šè¿”å›ä¸Šä¸€å±¤ç›®éŒ„
+  - `cd ~`ï¼šè¿”å›åˆå§‹ç›®éŒ„
+### repositoryï¼ˆå€‰å„²ï¼‰
+- `git clone [url]`ï¼šå°‡ç¶²è·¯ä¸Šçš„ repo ä¸‹è¼‰è‡³æœ¬åœ°é›»è…¦
+- `git init`ï¼šåˆå§‹åŒ–ï¼ˆå»ºç«‹`.git`çš„å­è³‡æ–™å¤¾ï¼‰
+### branchï¼ˆåˆ†æ”¯ï¼‰
+- `git branch`ï¼šæŸ¥çœ‹æ‰€æœ‰ branch
+  - `git branch <new_branchname>`ï¼šå»ºç«‹æ–°çš„ branch ä¸¦å‘½å
+  - `git branch -m <original_branchname> <new_branchname>`ï¼šé‡æ–°å‘½å branch
+  - `git branch -d <branchname>`ï¼šåˆªé™¤æŒ‡å®šçš„ branch
+- `git checkout <branchname>`ï¼šåˆ‡æ›è‡³æŒ‡å®š branchï¼ˆé è¨­ç‚º `master`ï¼‰
+  - `git checkout -b <branchname>`ï¼šå»ºç«‹ä¸¦åˆ‡æ›è‡³æŒ‡å®š branch
+  - `git diff <branchname1> <branchname2>`ï¼šæ¯”è¼ƒå…©å€‹ branch çš„ä¸åŒä¹‹è™•
+### commitï¼ˆæäº¤ï¼‰
+- `git status`ï¼šæŸ¥çœ‹ç‹€æ…‹
+- `git add <filename>`ï¼šå°‡æª”æ¡ˆå¾å·¥ä½œç›®éŒ„ç§»è‡³æš«å­˜å€ï¼ˆcommit çš„å‰ç½®ä½œæ¥­ï¼‰
+- `git commit -m "<æ­¤æ¬¡ä¿®æ”¹çš„å…§å®¹>`ï¼šå°‡æª”æ¡ˆå¾æš«å­˜å€æäº¤è‡³å„²å­˜åº«ï¼ˆå¿«é€Ÿæäº¤ï¼‰
+  - `git commit -a -m "<æ­¤æ¬¡ä¿®æ”¹çš„å…§å®¹>"`ï¼š`git add`ä¸¦å¿«é€Ÿæäº¤ï¼ˆä¹‹å‰æ²’æœ‰ add éçš„ä¸é©ç”¨ï¼‰
+- `git log`ï¼šæŸ¥çœ‹ commit çš„ç´€éŒ„
+## Git èˆ‡ GitHub
 | Git | GitHub |
 | -------- | -------- |
-| ³nÅé |  ºô¯¸  |
+| è»Ÿé«” |  ç¶²ç«™  |
 | [Git](https://git-scm.com/) | [GitHub](https://github.com/) |
