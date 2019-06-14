@@ -12,15 +12,6 @@
 
 ## 指令
 
-### directory（目錄）
-- `pwd`：查看目前所在的目錄
-- `ls`：查看目錄中的檔案
-- `cd`：變更目錄
-	- `cd <directoryname>`：前往下一層目錄
-	- `cd ..`：返回上一層目錄
-	- `cd ~`：返回初始目錄
-
-
 ### repository（倉儲）
 - `git clone [url]`：將網路上的 repo 下載至本地電腦
 - `git init`：初始化（建立`.git`的子資料夾）
@@ -48,5 +39,5 @@
 | Git | GitHub |
 | -------- | -------- |
 | 軟體 |  網站  |
-
+| -------- | -------- |
 | [Git](https://git-scm.com/) | [GitHub](https://github.com/) |
