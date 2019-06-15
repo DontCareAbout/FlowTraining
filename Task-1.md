@@ -22,11 +22,13 @@
 -----
 
 ### repository（倉儲） ###
+
 * `git clone [url]`：將網路上的 repo 下載至本地電腦
 * `git init`：初始化（建立`.git`的子資料夾）
 
 
 ### branch（分支） ###
+
 * `git branch`：查看所有 branch
 	* `git branch <new_branchname>`：建立新的 branch 並命名
 	* `git branch -m <original_branchname> <new_branchname>`：重新命名 branch
@@ -37,6 +39,7 @@
 
 
 ### commit（提交） ###
+
 * `git status`：查看狀態
 * `git add <filename>`：將檔案從工作目錄移至暫存區（commit 的前置作業）
 * `git commit -m "<此次修改的內容>`：將檔案從暫存區提交至儲存庫（快速提交）
