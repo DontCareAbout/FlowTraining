@@ -57,5 +57,5 @@ Git 與 GitHub
 
 
 [Git]:http://markdownpad.com/
-[GitHub]:(https://github.com/)
+[GitHub]:https://github.com/
 
