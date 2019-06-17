@@ -24,7 +24,7 @@
 
 ### repository（倉儲） ###
 
-* `git clone [url]`：將網路上的 repo 下載至本地電腦
+* `git clone [url]`：將網路上的 Repository 下載至本地電腦
 * `git init`：初始化（建立 `.git` 的子資料夾）
 
 
@@ -42,9 +42,9 @@
 ### commit（提交） ###
 
 * `git status`：查看狀態
-* `git add <filename>`：將檔案從工作目錄移至暫存區（commit 的前置作業）
+* `git add <filename>`：將檔案從 Working Directory 移至 Staging Area（commit 的前置作業）
 * `git commit -m "<此次修改的內容>`：將檔案從 Staging Area 提交至 Repository（快速提交）
-	* `git commit -a -m "<此次修改的內容>"`：`git add`並快速提交（之前沒有 add 過的不適用）
+	* `git commit -a -m "<此次修改的內容>"`：`git add` 並快速提交（之前沒有 add 過的不適用）
 * `git log`：查看 commit 的紀錄
 
 
@@ -57,6 +57,6 @@ Git 與 GitHub
 | [link][Git]| [link][GitHub]|
 
 
-[Git]:http://markdownpad.com/
+[Git]:https://git-scm.com/
 [GitHub]:https://github.com/
 
