@@ -41,14 +41,15 @@ reviewer 如果 accept，就會整合回 `DontCareAbout/FlowTraining`。
 	如果 reviewer 沒有特別指定，target branch 就是 `master`。
 1. reviewer 可能會有三個動作：
 	* merge pull request：表示 reviewer accept，這個 task 順利結束。
-	* comment（包含 line note）：表示 reviewer 認為仍然需要修改、將修改原因與內容寫在 comment 中。
-		修改 / commit 完之後，留下一個 comment 通知 reviewer 再次 review。
+	* comment（包含 line comment）：表示 reviewer 認為仍然需要修改、會將修改原因與內容寫在 comment 中。
+		修改 / commit 完之後，留下一個 comment 通知 reviewer 再次 review，
+		也可按下畫面右側「Reviewers」欄的 `Re-request review` 圖示通知 reviewer。
 	* close pull request：表示該 pull request 有重大錯誤，要另外重發 pull request。
 
 
 另外有幾點注意事項：
 
-* 發 pull request 之後，除非 reviewer 要求修正，否則請不要繼續在該 branch 上 commit。
+* 申請 review（無論發 pull request、或再次要求 review）後到 review 回應 comment 之前，請不要繼續在該 branch 上 commit。
 * 如果該 pull request 在 accept 之前發生 conflict
 	（如果發 pull request 的時候還沒有、是 reviewer 後續操作所產生，
 	reviewer 有責任寫 comment 通知 committer），
