@@ -31,7 +31,7 @@ git 是一個能夠靈活控管專案版本的版本控制系統。
 |Markdown|[task_說明]|
 
 
-[git]: https://git-scm.com/book/zh-tw/v2/
-[task_說明]: https://raw.githubusercontent.com/DontCareAbout/FlowTraining/master/Task_1.md
+[git SCM]: https://git-scm.com/book/zh-tw/v2/
+[task_說明]: https://github.com/MontyPan/FlowTraining/blob/master/Task_1.md
 
  
