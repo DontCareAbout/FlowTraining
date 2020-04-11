@@ -1,33 +1,37 @@
-《我在這個 task 中理解到的 git 是什麼東西》
+《我在這個 task 中理解到的 Git 是什麼東西》
 ==========================================
 
-git 是一種分散式的版本控制系統，開發者可以在離線 Local 環境下進行開發，當有網路時再將自己的程式 push 到 Remote 環境或 pull 程式碼給其他開發者進行整合。
+Git 是一種方便且有效率的版本控制系統，讓團隊在共同做一項專案時，可以達到有效率的分工合作，因為當各個開發者在本地端檔案庫編輯自己的檔案期間，不會邊修改邊同步到其他開發者的檔案庫中的這份資料，因此，如果有需要的話，也可以讓不只一位開發者在同時間修改同一份檔案，也支援開發者在每次 commit 都能留下 message 的功能，以供所有開發者查看這次的版本有什麼改變（修改或新增），也讓將來的開發者可以很清楚的看到每次版本的變動有哪些原因，以達到高效率的版本控制。
+
 
 * 環境
-	* Local (本地)
-		* 專案資料夾（Working directory）
-		* 暫存區（Staging area）
-		* 本地檔案庫（Repository）= Repo
-	* Remote (遠端)
+	* local (本地端)
+		* 專案資料夾（working directory）
+		* 暫存區（staging area）
+		* 本地檔案庫（repository）
+	* remote (遠端)
+		* 遠端檔案庫（repository）
 	
 	
 > ###### For example ######
-> A君& B君& C君需要一同拚一個3000片的拼圖，他們分別被分配了須完成左、中、右三個區塊，
-> 在工作期間他們可以各自做自己的部分，首先他們需要各自先找一個合適的地方（Working directory）並會在此作業，
-> 當他們將自己的完成品集中（Staging area）並確認沒問題後，放（commit）入各自的固定邊框（Repository），
-> 最後放（push）上完成品集中區（Remote 遠端環境（Github）） 。
+> A 君＆B 君＆C 君需要一同拚一個3000片的拼圖，他們分別被分配了須完成左、中、右三個區塊，
+> 在工作期間他們可以各自做自己的部分，首先他們需要各自先找一個合適的地方（working directory）並會在此作業，
+> 當他們將自己的完成品集中（staging area）並確認沒問題後，放（commit）入各自的固定邊框（Repository），
+> 最後放（push）上完成品集中區（remote 遠端環境（Github）） 。
 		
 		
-git 指令
+Git 指令
 ---------
 
 | 指令                    | 說明                                                                      |
 |-------------------------|---------------------------------------------------------------------------|
-| git clone  <url>        | 將網路上的 Repository 遠端下載至本地電腦（建議用 Clone with HTTPS）|
-| git init                | 初始化 git 的專案|
-| git add .               | 將工作資料夾全部檔案從專案資料夾（Working area）加入暫存區（Staging area）|
-| git add <檔案名稱>      | 指定某個檔案從專案資料夾（Working area）加入暫存區（Staging area）|
-| git status              | 查詢檔案追蹤的狀態（需先加到暫存區）|
+| git clone  <url>        | 將網路上的 repository 遠端下載至本地電腦（建議用 Clone with HTTPS）|
+| git init                | 初始化專案並會產生 .git 的資料夾（為隱藏的狀態）|
+| git add .               | 將工作資料夾全部檔案加入暫存區（staging area）並開始被追蹤|
+|                         | （需要先將工作資料夾初始化並產生 .git 這個儲存版本的資料夾）
+| git add <檔案名稱>      | 指定某個檔案加入暫存區|
+|                         |（需要先將工作資料夾初始化並產生 .git 這個儲存版本的資料夾）|
+| git status              | 查詢這個資料夾內的狀態（需先加到暫存區）|
 | git branch              | 查看全部分支（branch）|
 | git branch <名稱A>      | 建立名為 "名稱A" 的分支 |
 | git checkout <名稱A>    | 切換至 "名稱A" 分支|
@@ -35,7 +39,7 @@ git 指令
 |                         | 若尚未設定過帳戶，提交前會需要設定 email 和 Name|
 | git push                | 上傳至遠端檔案庫（例如：Github）|
 | git log                 | 顯示提交歷史紀錄 |
-| git remote              | 可以檢視已經設定好的遠端版本庫 |
+| git remote              | 可以檢視所有已經設定好的遠端檔案庫 |
 
 
 參考資料
