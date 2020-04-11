@@ -39,7 +39,7 @@ Git 指令
 |                         | 若尚未設定過帳戶，提交前會需要設定 email 和 Name|
 | git push                | 上傳至遠端檔案庫（例如：Github）|
 | git log                 | 顯示提交歷史紀錄 |
-| git remote             | 檢視所有已經設定好的遠端檔案庫 |
+| git remote              | 檢視所有已經設定好的遠端檔案庫 |
 
 
 參考資料
