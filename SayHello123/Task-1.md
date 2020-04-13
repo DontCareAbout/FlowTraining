@@ -8,7 +8,7 @@ score : 15 / 100
 |--------------|-----------------|---------------|
 | GitHub       | Git**h**ub      | 大寫改小寫    |
 | Github       | Gut**H**ub      | 小寫改大寫    |
-| list 最後一項「遠端檔案庫（remote repo）| 刪除 list 最後一項「遠端檔案庫（remote repo）| 刪除這行 |
+| list 最後一項「遠端檔案庫（remote repo）」| 刪除 list 最後一項「遠端檔案庫（remote repo）」| 刪除這行 |
 | L18 空一行   | 刪除這行 | 同左 |
 | 3000 片的拼圖| 3**O**00 片的拼圖| 數字 0 改成 英文字母 O |
 | 固定邊框（local repo）| 固定邊框（loca**1** repo）| 英文字母 l 改成數字 1 |
