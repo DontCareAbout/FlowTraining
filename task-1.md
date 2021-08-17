@@ -18,4 +18,4 @@
 [GOOGLE](https://www.google.com/search?q=markdown+%E8%AA%9E%E6%B3%95&oq=markd&aqs=chrome.1.69i57j35i39j0i433i512l2j0i512j0i131i433i512j0i512j69i60.2175j0j7&sourceid=chrome&ie=UTF-8) 連結[]內放顯示文字()內放網址
 
 
-ˋprintln()ˋ
+ˋ println() ˋ
