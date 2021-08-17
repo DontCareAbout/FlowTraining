@@ -30,3 +30,7 @@ git 指令|我的理解
 `git log `|顯示修改內容
 `git add `|新增檔案
 `git commit `|提交修改
+
+
+更多資訊可參考[維基百科](https://zh.wikipedia.org/wiki/Git)
+
