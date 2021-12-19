@@ -16,7 +16,7 @@ GitHub flow
 ###### 建立 Branch ######
 > GitHub Flow 是一個基於分支（Branch）的輕量化工作流程，幫助團隊及專案定期的進行部署。
 > GitHub Flow 只需要記住主分支 master 其他分支都是從主分支在開出來，不管是解 Issue 還是開發新功能，都是以 master 分支為基底來建立新的分支
-> 當在進行一個功能開發或修復時，分離出新分支與 master 是非常重要的。分支命名應該具有描述性（如 refactor-authentication、user-content-cache-key 或是 make-retina-avatars），讓其他人清楚知道分支正在進行的工作項目。
+> 當在進行一個功能開發或修復時，分離出新分支與 master 是非常重要的。分支命名應該具有描述性（如 refactor-authentication、user-content-cache-key 或是 make-retina-avatars），讓其他人清楚知道> 分支正在進行的工作項目。
 
 
 ###### 新增 Commit ######
@@ -29,7 +29,7 @@ GitHub flow
 
 
 ###### 討論與檢閱程式碼 ######
-> Pull request 的評論主要用 Markdown 撰寫，檢閱修改的人或維護團隊可能會提出問題或意見。也許是程式碼風格不符合專案規範、缺少單元測試，或者也許一切看起來都不錯且狀況良好。Pull Request 旨在鼓勵這種類型的討論。
+> Pull request 的評論主要用 Markdown 撰寫，檢閱修改的人或維護團隊可能會提出問題或意見。也許是程式碼風格不符合專案規範、缺少單元測試，或者也許一切看起來都不錯且狀況良好。Pull Request 旨在鼓勵> 這種類型的討論。
 > 在討論及回饋關於提交時，可以繼續 Push 到你的分支。如果團隊成員反應說你忘了做某件事，或者在程式碼中有錯誤，你可以在分支中修正它並繼續推送修改。
 
 
