@@ -38,4 +38,3 @@ Git 指令及說明
 3. [GitHub Docs](
 	https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 4. [FlowTraining 中的說明](https://github.com/DontCareAbout/FlowTraining/blob/master/Task_1.md)
-5. [GitHub Flow](https://medium.com/@trylovetom/%E8%AE%93%E6%88%91%E5%80%91%E4%BE%86%E4%BA%86%E8%A7%A3-github-flow-%E5%90%A7-4144caf1f1bf)
